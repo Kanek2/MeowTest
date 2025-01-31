@@ -8,7 +8,7 @@ using RemoteAdmin;
 
 namespace MeowTesting.Commands
 {
-    [CommandHandler(typeof(RemoteAdminCommandHandler))] // Komenda dostępna tylko w RemoteAdmin
+    [CommandHandler(typeof(RemoteAdminCommandHandler))] 
     public class ModifyHintCommand : ICommand
     {
         public string Command { get; } = "modifyhint";
